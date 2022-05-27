@@ -1,5 +1,6 @@
 #KANGERS_GIVE_CREDITS
 import os
+import asyncio
 from pyrogram import filters
 from main import bot
 
@@ -17,3 +18,16 @@ START_BUTTONS = InlineKeyboardMarkup(
         ]
     ]
 )
+
+
+@bot.on_message(filters.command("start") & filters.private)
+async def start_private(_, message):
+    msg = START_TEXT.format(message.from_user.mention)
+    await message.reply_text(text = msg,
+                             reply_markup = START_BUTTONS)
+    
+
+@bot.on_message(filters.command("start") & filters.group)
+async def start_group(_, message):
+    await message.reply_text("🎧 <i>Music player is running.</i>")
+    
