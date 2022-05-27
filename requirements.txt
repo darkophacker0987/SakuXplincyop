@@ -5,3 +5,5 @@ youtube_search
 pytube
 yt_dlp
 youtube_dl
+telethon
+asyncio
