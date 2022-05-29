@@ -6,14 +6,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 START_TEXT = """
 Hi <b>{}</b> 👋
 I can play music & stream videos in Telegram group voice chats. 
-Make your own bot using below source code.
+This is private bot for Our master. Don't add ot anywhere.
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📨 Support", url="https://t.me/Titanium_Xyz"),
-            InlineKeyboardButton("📚 Source Code", url="https://github.com/Titanium/MusicBot")
+            InlineKeyboardButton("📨 Support 🚩", url="https://t.me/TeamUltronx"),
+            InlineKeyboardButton("🔥 Owner 🔥", url="https://t.me/officiallycute")
         ]
     ]
 )
