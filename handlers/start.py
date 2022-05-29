@@ -14,8 +14,8 @@ Make your own bot using below source code.
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📨 Support", url="https://t.me/TITANIUM_XYZ"),
-            InlineKeyboardButton("📚 Source Code", url="https://github.com/TitaniumOp/MusicBot")
+            InlineKeyboardButton("📨 Support 🚩", url="https://t.me/TeamUltronX"),
+            InlineKeyboardButton("🔥 Owner 🔥", url="https://t.me/officiallycute")
         ]
     ]
 )
